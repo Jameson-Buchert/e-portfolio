@@ -398,9 +398,11 @@ z-index: 2;
   opacity: 1;
 }
 
+/*
 .project:last-child {
-  margin: 40px;
+  
 }
+*/
 
 /* Footer */
 
@@ -752,7 +754,7 @@ footer{
   }
 
 
-  /* Navbar */
+  /* Mobile Navbar */
 
   nav {
     padding: 15px 5px;
@@ -776,7 +778,7 @@ footer{
   }
 
 
-  /* About Me */
+  /* Mobile About Me */
 
   .about-me__picture--profile {
     width: 80px;
@@ -801,7 +803,7 @@ footer{
   }
 
 
-  /* Languages */
+  /* Mobile Languages */
 
   .language {
     width: 100%;
@@ -830,7 +832,7 @@ footer{
   }
 
 
-  /* Projects */
+  /* Mobile Projects */
 
   .project {
     margin-bottom: 50px;
@@ -862,7 +864,7 @@ footer{
   }
 
 
-  /* Footer */
+  /* Mobile Footer */
 
   .footer__logo--img {
     width: 80px;
