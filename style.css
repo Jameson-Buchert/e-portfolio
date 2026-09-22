@@ -58,7 +58,7 @@ a {
 
 }
 
-a:hover {
+i:hover {
   opacity: 0.7;
 }
 
@@ -102,6 +102,7 @@ li {
 
 .nav__link--list {
   display: flex;
+  animation: animate-profile-navbar  800ms 200ms backwards;
 }
 
 .nav__link--anchor{
@@ -131,6 +132,7 @@ li {
   margin: 0 12px;
   color: black;
   font-weight: bold;
+  animation: animate-profile-navbar  800ms 200ms backwards;
 }
 
 .personal__logo::before,
@@ -173,10 +175,10 @@ li {
   box-shadow: 0 8px 18px;
   overflow: hidden;
   margin-bottom: 20px;
-  animation: animate-profile-picture 800ms 200ms backwards;
+  animation: animate-profile-navbar 800ms 200ms backwards;
 }
 
-  @keyframes animate-profile-picture {
+  @keyframes animate-profile-navbar  {
   0%{
     transform: scale(0);
   }
