@@ -424,15 +424,14 @@ z-index: 2;
 /* PD */
 .project__description {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 90px;
-  margin-top: 20px;
-  transform: translateY(-50%);
+  margin-top: 0;
   max-width: 550px;
   z-index: 3;
 
 
-  transform: scale(0.7);
+  transform: translateY(-50%) scale(0.7);
   transform-origin: center center;
   opacity: 0;
 
@@ -469,7 +468,7 @@ z-index: 2;
 }
 
 .project:hover .project__description {
-  transform: scale(1);
+  transform: translateY(-50%) scale(1);
   opacity: 1;
 }
 
