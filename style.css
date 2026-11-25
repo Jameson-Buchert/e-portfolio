@@ -800,6 +800,7 @@ footer{
     text-align: center;
     padding: 25px 10px;
   }
+
 }
 
 
@@ -810,18 +811,7 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* Mobile friendly */
+/* ================================================ Mobile Compatibility ================================================ */
 
 @media (max-width: 900px), (hover: none) {
   .row {
@@ -874,7 +864,7 @@ footer{
   
   }
 
-  
+
   /* About Me */
   #about-me {
     min-height: auto;
